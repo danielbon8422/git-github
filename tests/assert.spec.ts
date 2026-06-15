@@ -107,7 +107,7 @@ test('verificar Hidden Layers', async ({ page }) => {
   const greenButton = page.locator('.btn-success');
   await expect(greenButton).toBeVisible();
 
-  //  CLICK EN EL VERDE (PASO CLAVE 🔥)
+  //  CLICK EN EL VERDE 
   await greenButton.click();
 
   //  BOTÓN AZUL (DESPUÉS)
